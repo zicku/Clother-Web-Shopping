@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouthVibe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="left-title">All Product</h1>
+    </header>
+
+    <main>
+      <div class="product-container" id="product-list"></div>
+      <div class="view-all">
+        <a href="index.php">&lt;&lt; View less</a>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        showProducts(15);
+      });
+    </script>
+  </body>
+</html>

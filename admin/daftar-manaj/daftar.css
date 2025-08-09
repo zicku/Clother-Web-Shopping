@@ -1,0 +1,146 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  background: url('bg.jpg') no-repeat center center/cover;
+  color: white;
+}
+
+.container {
+  margin: 50px 40px 0 40px;
+  height: 530px;
+  background: #b698cc url('../image/logo-main.jpg') no-repeat center center;
+  background-size: 1300px 650px;
+  border-radius: 10px;
+  padding: 20px 55px;
+}
+/* TOP-BAR ATAS */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.back a{
+    text-decoration: none;
+    color: white;
+}
+
+.add a {
+    text-decoration: none;
+    color: white;
+}
+/* HEADER KOLOM */
+.card-header {
+  display: flex;
+  gap: 21px;
+  margin-bottom: 20px;
+  background: transparent;
+}
+
+.card-header .box {
+  text-align: center;
+  background: #ddd;
+  color: #000;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* CONTAINER & KARTU */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  background: transparent;
+}
+
+.card-item.box {
+  text-align: center;
+  background: #f1f1f1;
+  color: #333;
+  padding: 12px 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  width: 260px;
+  height: 30px;
+  font-size: 25px;
+}
+
+.card-item.box1 {
+  text-align: center;
+  background: #f1f1f1;
+  color: #333;
+  padding: 12px 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  width: 45px;
+  height: 30px;
+  font-size: 25px;
+}
+
+.card-item.box4 {
+  text-align: center;
+  background: #f1f1f1;
+  color: #333;
+  padding: 12px 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  width: 112px;
+  height: 30px;
+  font-size: 25px;
+}
+
+.card-item.box5 {
+  text-align: center;
+  background: #f1f1f1;
+  color: #333;
+  padding: 12px 16px;
+  border-radius: 10px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  width: 250px;
+  height: 30px;
+  font-size: 25px;
+}
+
+.edit-btn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background: #ccc;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.produk a {
+  margin-top: 20px;
+  margin-left: 330px;
+  font-weight: bold;
+  font-size: 21px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
